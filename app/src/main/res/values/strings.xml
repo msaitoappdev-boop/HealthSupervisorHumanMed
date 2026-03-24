@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">第一種衛生管理者 毎日3問トレーナー</string>
+    <string name="privacy_policy_url">https://msaitodev.com/privacy-policy.html</string>
+    <string name="subscription_management_url" translatable="false">https://play.google.com/store/account/subscriptions</string>
+
+    <!-- Billing Config (Non-translatable) -->
+    <string name="billing_product_id_premium" translatable="false">healthsupervisor_humanmed_premium_monthly</string>
+    <string name="billing_base_plan_id" translatable="false">monthly</string>
+
+    <!-- Paywall -->
+    <string name="paywall_title">プレミアム</string>
+    <string name="paywall_headline">毎日の学習を、もっと快適に。</string>
+    <string name="paywall_benefits">・解説の全文が閲覧可能\n・“今日の3問”の学習がスムーズに\n・将来の拡張機能にも対応</string>
+    <string name="paywall_plan_title">プラン</string>
+    <string name="paywall_plan_price">月額 ¥200（トライアルなし）</string>
+    <string name="paywall_purchase_button_text">月額 ¥200 でアップグレード（トライアルなし）</string>
+    <string name="paywall_purchase_button_purchased">購入済みです</string>
+    <string name="paywall_purchase_dialog_description">Google Play の購入ダイアログが表示されます</string>
+
+    <!-- Billing Error Messages (Provided to Core) -->
+    <string name="billing_error_offer_not_found">購入オファーが見つかりません</string>
+    <string name="billing_error_acknowledge_failed">承認に失敗しました</string>
+    <string name="billing_error_pending">お支払い処理中です。完了後に自動で有効化されます。</string>
+    <string name="billing_error_general">購入エラーが発生しました</string>
+
+    <!-- Notifications -->
+    <string name="notification_reminder_title_start">今日の3問を始めましょう</string>
+    <string name="notification_reminder_text_start">1セット3問。無理なく継続して合格を目指しましょう。</string>
+    <string name="notification_reminder_title_continue">今日の学習を継続しましょう</string>
+    <string name="notification_reminder_text_continue">あと %d セットで目標達成です。応援しています！</string>
+
+    <!-- Home -->
+    <string name="home_title">ホーム</string>
+    <string name="home_start_quiz">クイズを開始</string>
+    <string name="home_upgrade_to_premium">プレミアムへアップグレード</string>
+    <string name="home_set_reminder">毎日20:00にリマインドを設定</string>
+
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_weakness_mode_title">弱点特訓モード</string>
+    <string name="settings_weakness_mode_desc">ONにすると、過去に間違えた問題を優先的に出題します。</string>
+
+    <!-- Category Names (Used for Analysis) -->
+    <string name="cat_01_laws_harmful">関係法令（有害業務）</string>
+    <string name="cat_02_health_harmful">労働衛生（有害業務）</string>
+    <string name="cat_03_laws_general">関係法令（一般）</string>
+    <string name="cat_04_health_general">労働衛生（一般）</string>
+    <string name="cat_05_physiology">労働生理</string>
+    <string name="cat_unclassified">未分類</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_rewarded_ad_title">今日は無料分が終了しました</string>
+    <string name="dialog_rewarded_ad_message">動画を視聴すると +1 セット解放できます。視聴しますか？</string>
+    <string name="dialog_rewarded_ad_confirm">動画を視聴して +1 セット</string>
+    <string name="dialog_rewarded_ad_dismiss">キャンセル</string>
+    <string name="dialog_notification_permission_title">通知の許可が必要です</string>
+    <string name="dialog_notification_permission_message">毎日20:00に『今日の3問』をお知らせします。通知を許可してください。</string>
+    <string name="dialog_permission_confirm">許可する</string>
+    <string name="dialog_permission_dismiss">後で</string>
+
+    <!-- Common -->
+    <string name="common_error_rewarded_ad">動画を読み込めませんでした（ネットワーク/在庫/初期化）</string>
+    <string name="common_back">戻る</string>
+</resources>
