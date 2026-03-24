@@ -1,11 +1,11 @@
 <resources>
-    <!-- スプラッシュ画面用テーマ (ダークモード) -->
+    <!-- スプラッシュ画面用テーマ (Android 12+) -->
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <!-- 背景色: ダークモードの背景に合わせる -->
-        <item name="windowSplashScreenBackground">#121212</item>
+        <item name="windowSplashScreenBackground">#1A1C1E</item>
         <!-- アイコン: 作成したクイズアイコンの前景 -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
         <!-- スプラッシュ終了後に表示するテーマ -->
-        <item name="postSplashScreenTheme">@style/Theme.CaregiverHumanMed</item>
+        <item name="postSplashScreenTheme">@style/Theme.HealthSupervisorHumanMed</item>
     </style>
 </resources>

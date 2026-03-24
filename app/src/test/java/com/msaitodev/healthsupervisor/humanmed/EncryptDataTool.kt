@@ -1,4 +1,4 @@
-package com.msaitodev.caregiver.humanmed
+package com.msaitodev.healthsupervisor.humanmed
 
 import com.msaitodev.core.common.util.CryptoUtils
 import org.junit.Test

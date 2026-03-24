@@ -1,4 +1,4 @@
-package com.msaitodev.caregiver.humanmed
+package com.msaitodev.healthsupervisor.humanmed
 
 import com.msaitodev.quiz.core.data.local.dto.QuestionDto
 import kotlinx.serialization.json.Json

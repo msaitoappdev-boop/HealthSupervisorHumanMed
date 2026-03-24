@@ -1,6 +1,6 @@
 <resources>
     <!-- メインテーマ -->
-    <style name="Theme.CaregiverHumanMed" parent="Theme.Material3.DayNight">
+    <style name="Theme.HealthSupervisorHumanMed" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="android:statusBarColor">?android:attr/colorBackground</item>
         <item name="android:windowLightStatusBar">true</item>
@@ -8,11 +8,11 @@
 
     <!-- スプラッシュ画面用テーマ (Android 12+) -->
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <!-- 背景色: アプリの背景と同じ極めて淡いグリーン -->
-        <item name="windowSplashScreenBackground">#F1F8E9</item>
+        <!-- 背景色: アプリの背景と同じ色味に変更 -->
+        <item name="windowSplashScreenBackground">#F5F5F7</item>
         <!-- アイコン: 作成したクイズアイコンの前景 -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
         <!-- スプラッシュ終了後に表示するテーマ -->
-        <item name="postSplashScreenTheme">@style/Theme.CaregiverHumanMed</item>
+        <item name="postSplashScreenTheme">@style/Theme.HealthSupervisorHumanMed</item>
     </style>
 </resources>

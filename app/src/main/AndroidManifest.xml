@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:usesCleartextTraffic="false"
-        android:theme="@style/Theme.CaregiverHumanMed">
+        android:theme="@style/Theme.HealthSupervisorHumanMed">
 
         <activity
             android:name="com.msaitodev.healthsupervisor.humanmed.MainActivity"

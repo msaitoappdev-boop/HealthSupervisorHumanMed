@@ -29,7 +29,7 @@ android {
         applicationId = "com.msaitodev.healthsupervisor.humanmed"
         minSdk = 24
         targetSdk = 35
-        versionCode = 0
+        versionCode = 1
         versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -57,7 +57,7 @@ android {
             )
 
             val appId = localProps.getProperty("admob.app.id")
-                ?: "ca-app-pub-2149916445602223~3292882590"
+                ?: "ca-app-pub-2149916445602223~5074362385"
             manifestPlaceholders["admob_app_id"] = appId
             signingConfig = signingConfigs.getByName("release")
         }

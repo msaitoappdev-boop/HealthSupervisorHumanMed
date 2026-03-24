@@ -8,7 +8,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import com.msaitodev.healthsupervisor.humanmed.ui.AppNavHost
-import com.msaitodev.healthsupervisor.humanmed.ui.theme.CaregiverTheme
+import com.msaitodev.healthsupervisor.humanmed.ui.theme.HealthSupervisorTheme
 import com.msaitodev.core.ads.InterstitialHelper
 import com.msaitodev.core.ads.RewardedHelper
 import com.msaitodev.quiz.core.domain.repository.PremiumRepository
@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
         })
 
         setContent {
-            CaregiverTheme {
+            HealthSupervisorTheme {
                 AppNavHost(interstitialHelper, rewardedHelper)
             }
         }
