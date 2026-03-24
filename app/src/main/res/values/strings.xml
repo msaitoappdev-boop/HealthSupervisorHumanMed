@@ -4,7 +4,7 @@
     <string name="subscription_management_url" translatable="false">https://play.google.com/store/account/subscriptions</string>
 
     <!-- Billing Config (Non-translatable) -->
-    <string name="billing_product_id_premium" translatable="false">healthsupervisor_humanmed_premium_monthly</string>
+    <string name="billing_product_id_premium" translatable="false">hs_humanmed_premium_monthly</string>
     <string name="billing_base_plan_id" translatable="false">monthly</string>
 
     <!-- Paywall -->

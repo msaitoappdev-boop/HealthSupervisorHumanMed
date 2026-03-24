@@ -15,7 +15,7 @@ private val LightColorScheme = lightColorScheme(
     secondary = BrandSecondary,
     tertiary = BrandTertiary,
     background = AppBackground,
-    surface = Color.White,
+    surface = AppBackground, // 選択肢の背景を画面全体の背景色と一致させる
     onPrimary = Color.White,
     onSecondary = Color.White,
     onTertiary = Color.White,
@@ -42,7 +42,7 @@ private val LightAppColors = AppColors(
     correctBackground = Color(0xFFE8F5E9),
     wrongBorder = Color(0xFFC62828),
     wrongBackground = Color(0xFFFFEBEE),
-    selectedBackground = Color(0xFFE8EAF6) // Light Indigo background for selected item
+    selectedBackground = Color(0xFFE8EAF6) // 選択されたアイテムの背景色
 )
 
 // アプリケーション用のセマンティックカラー定義（ダークモード用）
