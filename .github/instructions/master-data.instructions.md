@@ -19,7 +19,7 @@
     - ソース管理上の構成（参考）: `master_data/quiz_data/{index}_{category_name}/questions_{file_index}.json`
 2.  **月次リリースのルール**: 毎月末に翌月分をリリースするペースで追加します。
     - **ファイル分割**: 既存のファイルを編集するのではなく、新しいインデックス（連番）を使用して新規ファイルとして作成してください。
-        - 4月分：`questions_02.json`
+        - 4月分：`questions_02.json` (完了)
         - 5月分：`questions_03.json`
         - 6月分：`questions_04.json` ...と順次追加。
     - **追加量**: 毎月各カテゴリー20問ずつ（計100問）を追加します。
