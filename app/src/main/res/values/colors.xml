@@ -2,5 +2,5 @@
 <resources>
     <color name="md_theme_primary">#1A237E</color>
     <color name="md_theme_onPrimary">#FFFFFF</color>
-    <color name="md_theme_secondary">#1A237E</color>
+    <color name="md_theme_secondary">#3949AB</color>
 </resources>

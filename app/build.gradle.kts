@@ -29,8 +29,8 @@ android {
         applicationId = "com.msaitodev.healthsupervisor.humanmed"
         minSdk = 24
         targetSdk = 35
-        versionCode = 8
-        versionName = "1.2.0"
+        versionCode = 9
+        versionName = "1.2.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -80,7 +80,7 @@ dependencies {
     // 全てのコアライブラリを Maven 形式で参照
     implementation("com.msaitodev.core:core-common:1.0.0")
     implementation("com.msaitodev.core:core-ads:1.0.2")
-    implementation("com.msaitodev.core:core-notifications:1.0.0")
+    implementation("com.msaitodev.core:core-notifications:1.0.1")
     implementation("com.msaitodev.core:core-navigation:1.0.0")
     implementation("com.msaitodev.core:core-cloud-sync:1.1.1")
     implementation("com.msaitodev.quiz:quiz-core-domain:1.1.1")
